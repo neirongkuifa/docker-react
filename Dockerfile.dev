@@ -9,7 +9,4 @@ RUN npm install
 
 COPY . .
 
-RUN CI=true
-RUN echo $CI
-
 CMD ["npm", "start"]
