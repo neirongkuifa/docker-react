@@ -9,4 +9,6 @@ RUN npm install
 
 COPY . .
 
+RUN CI=true
+
 CMD ["npm", "start"]
